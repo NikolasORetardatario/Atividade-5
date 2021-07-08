@@ -1,0 +1,34 @@
+programa
+{
+	funcao inicio()
+	{
+	inteiro n1, n2, n3, t
+	
+		escreva("Digite 3 números:")
+		leia(n1, n2, n3)
+          faca{		
+		
+		se(n1 < n3){
+		t= n1
+		n1 = n3
+		n3 = t
+		}
+
+		se(n1 < n2){
+		t = n1
+		n1 = n2
+		n2 = t	
+		}
+
+		se(n2 < n3){
+		t = n2
+		n2 = n3
+		n3 = t	
+		}
+
+	}
+enquanto(n1 < n3 ou n1 < n2 ou n2 < n3)
+
+	escreva(n1, n2, n3) 
+	}
+}
