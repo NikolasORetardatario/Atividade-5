@@ -1,0 +1,34 @@
+programa
+{
+
+	funcao inicio()
+	{
+	caracter coriza, tosse, febre, DorDeGarganta, DificuldadeParaRespirar
+
+	
+		escreva("Coriza? ")
+		leia(coriza)
+
+		escreva("tosse?")
+          leia(tosse)
+
+          escreva("Dor de garganta? ")
+          leia(DorDeGarganta)
+
+          escreva("Febre?")
+          leia(febre)
+
+          escreva("Dificuldade para respirar?")
+          leia(DificuldadeParaRespirar)
+
+	   se(tosse == 's' e coriza == 's' e febre == 's' e DorDeGarganta == 's'e  DificuldadeParaRespirar == 's') 
+	   {  escreva ("São sintomas de covid") }
+	  
+           
+          
+		
+
+
+		
+	}
+}
