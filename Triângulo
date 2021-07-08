@@ -1,0 +1,25 @@
+programa
+{  
+	funcao inicio()
+	{
+		inteiro a, b, c
+
+		escreva("Digite 3 valores: ")
+		leia(a, b, c)
+
+		se(a +  b > c e a + c > b e b + c > a ){
+	     escreva("Formam um triangulo ")
+	     }
+	     senao 
+	     escreva("Não formam um triangulo ")	
+	     se(a == b e a == c)
+	     escreva("Equilatero ")
+	     senao
+	     se (a == b ou a == c ou b == c)
+	     escreva("Isosceles")
+	     senao
+	     escreva("Escaleno")
+
+		}
+	
+}
