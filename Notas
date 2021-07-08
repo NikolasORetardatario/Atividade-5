@@ -1,0 +1,32 @@
+programa 
+{
+	funcao inicio() {
+	    
+          inteiro PrimeiraNota
+	     inteiro SegundaNota
+	     inteiro TerceiraNota
+	     inteiro QuartaNota
+	    	
+		
+		escreva("Primeira nota:\n ")
+		leia(PrimeiraNota)
+		escreva("Segunda nota:\n ")
+		leia(SegundaNota)
+		escreva("Terceira nota:\n ")
+		leia(TerceiraNota)
+		escreva("Quarta nota:\n ")
+		leia(QuartaNota)
+		
+		inteiro conta = (PrimeiraNota + SegundaNota + TerceiraNota + QuartaNota)/ 4
+		
+		se( conta == 100){
+		    escreva("Aprovado com distinção: ", conta)
+		}
+		senao se( conta >= 70){
+		    escreva("Aprovado: ", conta)
+		}
+		senao {
+		    escreva("Reprovado: ", conta)
+		}
+	}
+}
